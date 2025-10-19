@@ -378,3 +378,57 @@ style.value.color.named {
 style.value.identifier.function {
     color: #A7C080;
 }
+
+/*
+ * Terminal Colors (ANSI)
+ */
+terminal.black {
+    color: #272E33;
+}
+terminal.red {
+    color: #E67E80;
+}
+terminal.green {
+    color: #A7C080;
+}
+terminal.yellow {
+    color: #DBBC7F;
+}
+terminal.blue {
+    color: #7FBBB3;
+}
+terminal.magenta {
+    color: #D699B6;
+}
+terminal.cyan {
+    color: #83C092;
+}
+terminal.white {
+    color: #D3C6AA;
+}
+
+/* Bright ANSI Colors */
+terminal.brightBlack {
+    color: #7A8478;
+}
+terminal.brightRed {
+    color: #E67E80;
+}
+terminal.brightGreen {
+    color: #A7C080;
+}
+terminal.brightYellow {
+    color: #DBBC7F;
+}
+terminal.brightBlue {
+    color: #7FBBB3;
+}
+terminal.brightMagenta {
+    color: #D699B6;
+}
+terminal.brightCyan {
+    color: #83C092;
+}
+terminal.brightWhite {
+    color: #D3C6AA;
+}
