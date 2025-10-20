@@ -1,294 +1,294 @@
 meta {
-  -theme-interface-style: dark;
+  -theme-interface-style: light;
   -theme-vibrancy: none;
   -theme-accent-color: false;
 }
 
 /*
- * Everforest Medium Variant Color Palette
- * Background: #2D353B (dim), #343F44 (0), #3D484D (1), #445055 (2), #4C565C (3), #555F66 (4), #5C6A72 (5)
- * Foreground: #D3C6AA
- * Red: #E67E80, Orange: #E69875, Yellow: #DBBC7F, Green: #A7C080
- * Blue: #7FBBB3, Aqua: #83C092, Purple: #D699B6
+ * Everforest Soft Variant Color Palette
+ * Background: #F2EFDF (dim), #FFFBEF (0), #F8F5E4 (1), #F2EFDF (2), #EDEADA (3), #E8E5D5 (4), #BEC5B2 (5)
+ * Foreground: #5C6A72
+ * Red: #F85552, Orange: #F57D26, Yellow: #DFA000, Green: #8DA101
+ * Blue: #3A94C5, Aqua: #35A77C, Purple: #DF69BA
  */
 
 /*
  * Window styles
  */
 meta.window {
-  border-color: #4C565C;
-  background-color: #2D353B;
+  border-color: #E8E5D5;
+  background-color: #F2EFDF;
 }
 meta.titlebar {
-  color: #D3C6AA;
-  border-color: #4C565C;
-  background-color: #2D353B;
+  color: #5C6A72;
+  border-color: #E8E5D5;
+  background-color: #F2EFDF;
 }
 meta.titlebar.inactive {
-  color: #859289;
+  color: #A6B0A0;
 }
 
 meta.button {
-  background: linear-gradient(#445055, #3D484D);
-  border: linear-gradient(#343F44, #2D353B);
-  color: #D3C6AA;
+  background: linear-gradient(#FFFBEF, #F8F5E4);
+  border: linear-gradient(#EDEADA, #E8E5D5);
+  color: #5C6A72;
 }
 meta.button.highlighted {
-  background: linear-gradient(#4C565C, #445055);
-  color: #D3C6AA;
+  background: linear-gradient(#F8F5E4, #F2EFDF);
+  color: #5C6A72;
 }
 meta.button.selected {
-  color: #D3C6AA;
-  background: #83C092;
+  color: #FFFBEF;
+  background: #35A77C;
 }
 meta.button.highlighted.selected {
-  color: #2D353B;
-  background: #A7C080;
+  color: #F2EFDF;
+  background: #8DA101;
 }
 meta.button.disabled {
-  color: #7A8478;
-  background: #3D484D;
+  color: #A6B0A0;
+  background: #EDEADA;
 }
 
 meta.textfield {
-  background-color: #343F44;
-  border-color: #445055;
-  color: #D3C6AA;
+  background-color: #FFFBEF;
+  border-color: #EDEADA;
+  color: #5C6A72;
 }
 meta.textfield.highlighted {
-  background-color: #2D353B;
-  border-color: #4C565C;
+  background-color: #F8F5E4;
+  border-color: #E8E5D5;
 }
 
 meta.accent {
-  color: #83C092;
+  color: #35A77C;
 }
 
 /*
  * Document styles
  */
 meta.document {
-  background-color: #2D353B;
-  border-color: #4C565C;
+  background-color: #F2EFDF;
+  border-color: #E8E5D5;
 }
 
 meta.document.button {
-  background: linear-gradient(#3D484D, #343F44);
-  border: linear-gradient(#2D353B, #2D353B);
-  color: #D3C6AA;
+  background: linear-gradient(#F8F5E4, #FFFBEF);
+  border: linear-gradient(#F2EFDF, #F2EFDF);
+  color: #5C6A72;
 }
 meta.document.button.disabled {
-  background: linear-gradient(#3D484D80, #343F4480);
-  color: #7A8478;
+  background: linear-gradient(#F8F5E480, #FFFBEF80);
+  color: #A6B0A0;
 }
 meta.document.button.highlighted {
-  background: linear-gradient(#445055, #3D484D);
-  color: #D3C6AA;
+  background: linear-gradient(#EDEADA, #F8F5E4);
+  color: #5C6A72;
 }
 
 meta.document.textfield {
-  background-color: #2D353B;
-  border-color: #445055;
-  color: #D3C6AA;
+  background-color: #F2EFDF;
+  border-color: #EDEADA;
+  color: #5C6A72;
 }
 meta.document.textfield.highlighted {
-  background-color: #2D353B;
-  border-color: #83C092;
+  background-color: #F2EFDF;
+  border-color: #35A77C;
 }
 
 /* Text */
 meta.text {
-  color: #D3C6AA;
+  color: #5C6A72;
 }
 meta.text.invisible {
-  color: #D3C6AA26;
+  color: #5C6A7226;
 }
 meta.text.selected {
-  background-color: #404952;
-  color: #D3C6AA;
+  background-color: #E1DFCE;
+  color: #5C6A72;
 }
 
 /* Cursor */
 meta.cursor {
-  background-color: #3D484D;
+  background-color: #EDEADA;
 }
 
 /* Indentation Guides */
 meta.indentguide {
-  border-color: #4C565C33;
+  border-color: #E8E5D533;
 }
 
 /* Gutter */
 meta.gutter {
-  color: #7A8478;
-  background-color: #343F44;
+  color: #A6B0A0;
+  background-color: #FFFBEF;
 }
 meta.gutter.selected {
-  background-color: #404952;
-  color: #D3C6AA;
+  background-color: #E1DFCE;
+  color: #5C6A72;
 }
 
 /*
  * Syntax styles
  */
 comment {
-  color: #859289;
+  color: #A6B0A0;
   font-style: italic;
 }
 processing {
-  color: #7A8478;
+  color: #A6B0A0;
 }
 declaration {
-  color: #7A8478;
+  color: #A6B0A0;
 }
 bracket {
-  color: #D3C6AA;
+  color: #5C6A72;
 }
 operator {
-  color: #E67E80;
+  color: #F85552;
 }
 invalid {
-  background-color: #E67E80;
-  color: #1E2326;
+  background-color: #F85552;
+  color: #FFFBEF;
 }
 link {
-  color: #7FBBB3;
+  color: #3A94C5;
 }
 
 /* Keywords */
 keyword {
-  color: #E67E80;
+  color: #F85552;
 }
 keyword.modifier {
   font-style: italic;
-  color: #7FBBB3;
+  color: #3A94C5;
 }
 keyword.condition {
-  color: #E67E80;
+  color: #F85552;
 }
 keyword.construct {
-  color: #E67E80;
+  color: #F85552;
 }
 keyword.statement {
-  color: #E67E80;
+  color: #F85552;
 }
 keyword.self {
-  color: #D699B6;
+  color: #DF69BA;
 }
 keyword.self.prefix {
-  color: #D699B6;
+  color: #DF69BA;
 }
 
 /* Values */
 value.boolean {
-  color: #E69875;
+  color: #F57D26;
 }
 value.null {
-  color: #E69875;
+  color: #F57D26;
 }
 value.number {
-  color: #DBBC7F;
+  color: #DFA000;
 }
 value.entity {
-  color: #E69875;
+  color: #F57D26;
 }
 value.symbol {
-  color: #E69875;
+  color: #F57D26;
 }
 
 /* Identifiers */
 identifier.type {
-  color: #DBBC7F;
+  color: #DFA000;
 }
 identifier.constant,
 identifier.global,
 identifier.variable {
-  color: #D699B6;
+  color: #DF69BA;
 }
 identifier.constant.prefix,
 identifier.global.prefix,
 identifier.variable.prefix {
-  color: #D3C6AA;
+  color: #5C6A72;
 }
 identifier.property {
-  color: #D699B6;
+  color: #DF69BA;
 }
 identifier.property.prefix {
-  color: #D3C6AA;
+  color: #5C6A72;
 }
 identifier.decorator,
 identifier.function,
 identifier.method {
-  color: #A7C080;
+  color: #8DA101;
 }
 identifier.key {
-  color: #7FBBB3;
+  color: #3A94C5;
 }
 identifier.argument {
-  color: #D699B6;
+  color: #DF69BA;
 }
 identifier.argument.prefix {
-  color: #D3C6AA;
+  color: #5C6A72;
 }
 
 /* Strings */
 string {
-  color: #DBBC7F;
+  color: #DFA000;
 }
 string.delimiter {
-  color: #E69875;
+  color: #F57D26;
 }
 string.escape {
-  color: #83C092;
+  color: #35A77C;
 }
 string.key {
-  color: #7FBBB3;
+  color: #3A94C5;
 }
 string-keyword {
-  color: #E69875;
+  color: #F57D26;
 }
 string-template {
-  color: #83C092;
+  color: #35A77C;
 }
 regex {
-  color: #83C092;
+  color: #35A77C;
 }
 regex.escape {
-  color: #DBBC7F;
+  color: #DFA000;
 }
 cdata {
-  color: #7FBBB3;
+  color: #3A94C5;
 }
 
 /* Markup */
 markup.heading {
-  color: #E69875;
+  color: #F57D26;
   font-weight: bold;
 }
 markup.line {
-  color: #DBBC7F;
+  color: #DFA000;
 }
 markup.bold {
-  color: #7FBBB3;
+  color: #3A94C5;
   font-weight: bold;
 }
 markup.italic {
-  color: #A7C080;
+  color: #8DA101;
   font-style: italic;
 }
 markup.strikethrough {
-  color: #7A8478;
+  color: #A6B0A0;
   text-decoration: line-through;
 }
 markup.list.item {
-  color: #E69875;
+  color: #F57D26;
 }
 markup.code {
-  background-color: #343F44;
-  color: #83C092;
+  background-color: #FFFBEF;
+  color: #35A77C;
 }
 markup.link {
-  color: #7FBBB3;
+  color: #3A94C5;
 }
 
 /* Types */
@@ -298,143 +298,142 @@ definition.package.name,
 definition.enum.name,
 definition.union.name,
 definition.struct.name {
-  color: #DBBC7F;
+  color: #DFA000;
   font-weight: bold;
 }
 
 /* Members */
 definition.property.name {
-  color: #D699B6;
+  color: #DF69BA;
 }
 definition.function.name,
 definition.method.name {
-  color: #A7C080;
+  color: #8DA101;
   font-weight: bold;
 }
 
 /* Tags */
 tag {
-  color: #A7C080;
+  color: #8DA101;
 }
 tag.name {
-  color: #E67E80;
+  color: #F85552;
 }
 tag.framework {
-  color: #D699B6;
+  color: #DF69BA;
 }
 tag.framework.name {
-  color: #D699B6;
+  color: #DF69BA;
 }
 tag.attribute.name {
-  color: #DBBC7F;
+  color: #DFA000;
 }
 tag.framework.attribute.name {
-  color: #83C092;
+  color: #35A77C;
 }
 tag.attribute.value {
-  color: #DBBC7F;
+  color: #DFA000;
 }
 tag.attribute.value.delimiter {
-  color: #E69875;
+  color: #F57D26;
 }
 tag.attribute.operator {
-  color: #E67E80;
+  color: #F85552;
 }
 tag.attribute.value.link {
-  color: #7FBBB3;
+  color: #3A94C5;
 }
 
 /* Styles */
 style.at {
-  color: #E69875;
+  color: #F57D26;
   font-weight: bold;
 }
 style.selector.element {
-  color: #E67E80;
+  color: #F85552;
   font-weight: bold;
 }
 style.selector.identifier.id {
-  color: #DBBC7F;
+  color: #DFA000;
 }
 style.selector.identifier.class {
-  color: #A7C080;
+  color: #8DA101;
 }
 style.selector.pseudoclass {
-  color: #D699B6;
+  color: #DF69BA;
 }
 style.selector.pseudoelement {
-  color: #E69875;
+  color: #F57D26;
 }
 style.attribute.name {
-  color: #7FBBB3;
+  color: #3A94C5;
 }
 style.value.number {
-  color: #DBBC7F;
+  color: #DFA000;
 }
 style.value.color.hex {
-  color: #DBBC7F;
+  color: #DFA000;
 }
 style.value.keyword {
-  color: #E67E80;
+  color: #F85552;
 }
 style.value.color.named {
-  color: #E67E80;
+  color: #F85552;
 }
 style.value.identifier.function {
-  color: #A7C080;
+  color: #8DA101;
 }
 
 /*
  * Terminal Colors (ANSI)
  */
 terminal.black {
-  color: #2D353B;
+  color: #5C6A72;
 }
 terminal.red {
-  color: #E67E80;
+  color: #F85552;
 }
 terminal.green {
-  color: #A7C080;
+  color: #8DA101;
 }
 terminal.yellow {
-  color: #DBBC7F;
+  color: #DFA000;
 }
 terminal.blue {
-  color: #7FBBB3;
+  color: #3A94C5;
 }
 terminal.magenta {
-  color: #D699B6;
+  color: #DF69BA;
 }
 terminal.cyan {
-  color: #83C092;
+  color: #35A77C;
 }
 terminal.white {
-  color: #D3C6AA;
+  color: #F2EFDF;
 }
 
 /* Bright ANSI Colors */
 terminal.brightBlack {
-  color: #7A8478;
+  color: #A6B0A0;
 }
 terminal.brightRed {
-  color: #E67E80;
+  color: #F85552;
 }
 terminal.brightGreen {
-  color: #A7C080;
+  color: #8DA101;
 }
 terminal.brightYellow {
-  color: #DBBC7F;
+  color: #DFA000;
 }
 terminal.brightBlue {
-  color: #7FBBB3;
+  color: #3A94C5;
 }
 terminal.brightMagenta {
-  color: #D699B6;
+  color: #DF69BA;
 }
 terminal.brightCyan {
-  color: #83C092;
+  color: #35A77C;
 }
 terminal.brightWhite {
-  color: #D3C6AA;
+  color: #FFFBEF;
 }
-
