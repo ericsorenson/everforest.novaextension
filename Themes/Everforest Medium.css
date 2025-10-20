@@ -1,6 +1,6 @@
 meta {
     -theme-interface-style: dark;
-    -theme-vibrancy: vibrant;
+    -theme-vibrancy: none;
     -theme-accent-color: auto;
 }
 
@@ -17,10 +17,12 @@ meta {
  */
 meta.window {
     border-color: #495156;
+    background-color: #272E33;
 }
 meta.titlebar {
     color: #D3C6AA;
-    border-color: #272E33;
+    border-color: #495156;
+    background-color: #272E33;
 }
 meta.titlebar.inactive {
     color: #859289;
