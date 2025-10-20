@@ -1,7 +1,7 @@
 meta {
   -theme-interface-style: dark;
   -theme-vibrancy: none;
-  -theme-accent-color: auto;
+  -theme-accent-color: false;
 }
 
 /*
@@ -60,6 +60,10 @@ meta.textfield.highlighted {
   border-color: #495156;
 }
 
+meta.accent {
+  color: #83C092;
+}
+
 /*
  * Document styles
  */
@@ -100,7 +104,7 @@ meta.text.invisible {
   color: #D3C6AA26;
 }
 meta.text.selected {
-  background-color: #4F5B58;
+  background-color: #3A4248;
   color: #D3C6AA;
 }
 
@@ -111,7 +115,7 @@ meta.cursor {
 
 /* Indentation Guides */
 meta.indentguide {
-  border-color: #41414533;
+  border-color: #49515633;
 }
 
 /* Gutter */
@@ -120,7 +124,7 @@ meta.gutter {
   background-color: #2E383C;
 }
 meta.gutter.selected {
-  background-color: #374145;
+  background-color: #3A4248;
   color: #D3C6AA;
 }
 
@@ -128,7 +132,7 @@ meta.gutter.selected {
  * Syntax styles
  */
 comment {
-  color: #7A8478;
+  color: #859289;
   font-style: italic;
 }
 processing {
