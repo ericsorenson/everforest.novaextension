@@ -104,7 +104,7 @@ meta.text.invisible {
   color: #D3C6AA26;
 }
 meta.text.selected {
-  background-color: #32383C;
+  background-color: #2E383C;
   color: #D3C6AA;
 }
 
@@ -124,7 +124,7 @@ meta.gutter {
   background-color: #272E33;
 }
 meta.gutter.selected {
-  background-color: #32383C;
+  background-color: #2E383C;
   color: #D3C6AA;
 }
 
@@ -229,6 +229,47 @@ identifier.argument {
 }
 identifier.argument.prefix {
   color: #D3C6AA;
+}
+
+/* Storage & Language Constructs */
+storage.type {
+  color: #E67E80;
+  font-style: italic;
+}
+storage.modifier {
+  color: #7FBBB3;
+  font-style: italic;
+}
+
+/* Constants & Language Literals */
+constant.language {
+  color: #E69875;
+}
+constant.numeric {
+  color: #DBBC7F;
+}
+
+/* Variables & Parameters */
+variable.parameter {
+  color: #D699B6;
+}
+
+/* Entity Names */
+entity.name.function {
+  color: #A7C080;
+  font-weight: bold;
+}
+entity.name.class {
+  color: #DBBC7F;
+  font-weight: bold;
+}
+
+/* Support Classes & Functions */
+support.function {
+  color: #A7C080;
+}
+support.class {
+  color: #DBBC7F;
 }
 
 /* Strings */

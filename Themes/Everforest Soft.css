@@ -231,6 +231,47 @@ identifier.argument.prefix {
   color: #5C6A72;
 }
 
+/* Storage & Language Constructs */
+storage.type {
+  color: #F85552;
+  font-style: italic;
+}
+storage.modifier {
+  color: #3A94C5;
+  font-style: italic;
+}
+
+/* Constants & Language Literals */
+constant.language {
+  color: #F57D26;
+}
+constant.numeric {
+  color: #DFA000;
+}
+
+/* Variables & Parameters */
+variable.parameter {
+  color: #DF69BA;
+}
+
+/* Entity Names */
+entity.name.function {
+  color: #8DA101;
+  font-weight: bold;
+}
+entity.name.class {
+  color: #DFA000;
+  font-weight: bold;
+}
+
+/* Support Classes & Functions */
+support.function {
+  color: #8DA101;
+}
+support.class {
+  color: #DFA000;
+}
+
 /* Strings */
 string {
   color: #DFA000;
@@ -409,7 +450,7 @@ terminal.cyan {
   color: #35A77C;
 }
 terminal.white {
-  color: #F2EFDF;
+  color: #FFFBEF;
 }
 
 /* Bright ANSI Colors */
@@ -435,5 +476,5 @@ terminal.brightCyan {
   color: #35A77C;
 }
 terminal.brightWhite {
-  color: #FFFBEF;
+  color: #F2EFDF;
 }
