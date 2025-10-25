@@ -16,12 +16,12 @@ meta {
  * Window styles
  */
 meta.window {
-  border-color: #414B50;
+  border-color: #374145;
   background-color: #1E2326;
 }
 meta.titlebar {
   color: #D3C6AA;
-  border-color: #414B50;
+  border-color: #374145;
   background-color: #1E2326;
 }
 meta.titlebar.inactive {
@@ -57,7 +57,7 @@ meta.textfield {
 }
 meta.textfield.highlighted {
   background-color: #1E2326;
-  border-color: #414B50;
+  border-color: #374145;
 }
 
 meta.accent {
@@ -69,7 +69,7 @@ meta.accent {
  */
 meta.document {
   background-color: #1E2326;
-  border-color: #414B50;
+  border-color: #374145;
 }
 
 meta.document.button {
@@ -115,7 +115,7 @@ meta.cursor {
 
 /* Indentation Guides */
 meta.indentguide {
-  border-color: #414B5033;
+  border-color: #37414533;
 }
 
 /* Gutter */
