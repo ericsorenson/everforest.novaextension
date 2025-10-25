@@ -8,39 +8,39 @@
 
 Everforest for Nova includes **six complete variants** following the official Everforest specification, providing three contrast levels for both dark and light themes:
 
-### Dark Themes 🌙
+### Dark Themes
 
-#### 🌲 **Everforest Hard Dark**
+#### **Everforest Hard Dark**
 - **Highest contrast** dark variant with the deepest backgrounds
 - **Background**: Deep forest tones (`#1E2326` to `#4F5B58`)
 - **Best for**: Users who prefer maximum contrast and definition
 ![Everforest Hard](Images/screenshots/Everforest%20Hard.png)
 
-#### 🍃 **Everforest Medium Dark** (Recommended)
+#### **Everforest Medium Dark** (Recommended)
 - **Balanced contrast** dark variant with moderate backgrounds
 - **Background**: Medium forest tones (`#232A2E` to `#56635F`)
 - **Best for**: Most users seeking comfortable, everyday coding
 ![Everforest Medium](Images/screenshots/Everforest%20Medium.png)
 
-#### 🌫️ **Everforest Soft Dark**
+#### **Everforest Soft Dark**
 - **Lower contrast** dark variant for maximum eye comfort
 - **Background**: Softer forest tones (`#293136` to `#5D6B66`)
 - **Best for**: Extended coding sessions and low-light environments
 
-### Light Themes ☀️
+### Light Themes
 
-#### ☀️ **Everforest Hard Light**
+#### **Everforest Hard Light**
 - **High contrast** light theme with crisp backgrounds
 - **Background**: Bright, warm tones (`#F2EFDF` to `#BEC5B2`)
 - **Best for**: Bright environments and users who prefer strong contrast
 ![Everforest Soft](Images/screenshots/Everforst%20Soft.png)
 
-#### 🌤️ **Everforest Medium Light**
+#### **Everforest Medium Light**
 - **Balanced contrast** light theme with moderate warmth
 - **Background**: Medium warm tones (`#EFEBD4` to `#BDC3AF`)
 - **Best for**: All-day coding with comfortable light contrast
 
-#### 🌅 **Everforest Soft Light**
+#### **Everforest Soft Light**
 - **Lower contrast** light theme for gentle eye comfort
 - **Background**: Soft, muted tones (`#E5DFC5` to `#B9C0AB`)
 - **Best for**: Sensitive eyes and extended light-theme usage
