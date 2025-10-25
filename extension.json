@@ -2,7 +2,24 @@
   "identifier": "software.sorenson.everforest",
   "name": "Everforest",
   "organization": "sorenson.software",
-  "description": "Everforest Theme for Nova",
-  "version": "0.0.1",
-  "categories": ["themes"]
+  "description": "A green based color scheme designed to be warm and soft in order to protect developers' eyes",
+  "version": "1.0.0",
+  "categories": ["themes"],
+  "themes": [
+    {
+      "name": "Everforest Hard",
+      "identifier": "everforest-hard",
+      "path": "Themes/Everforest Hard.css"
+    },
+    {
+      "name": "Everforest Medium",
+      "identifier": "everforest-medium",
+      "path": "Themes/Everforest Medium.css"
+    },
+    {
+      "name": "Everforest Soft",
+      "identifier": "everforest-soft",
+      "path": "Themes/Everforest Soft.css"
+    }
+  ]
 }
