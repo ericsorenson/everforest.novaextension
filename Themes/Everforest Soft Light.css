@@ -5,8 +5,8 @@ meta {
 }
 
 /*
- * Everforest Soft Variant Color Palette
- * Background: #F2EFDF (dim), #FFFBEF (0), #F8F5E4 (1), #F2EFDF (2), #EDEADA (3), #E8E5D5 (4), #BEC5B2 (5)
+ * Everforest Soft Light Variant Color Palette
+ * Background: #E5DFC5 (dim), #F3EAD3 (base), #EAE4CA (0), #DDD8BE (1), #D8D3BA (2), #B9C0AB (3)
  * Foreground: #5C6A72
  * Red: #F85552, Orange: #F57D26, Yellow: #DFA000, Green: #8DA101
  * Blue: #3A94C5, Aqua: #35A77C, Purple: #DF69BA
@@ -16,48 +16,48 @@ meta {
  * Window styles
  */
 meta.window {
-  border-color: #E8E5D5;
-  background-color: #F2EFDF;
+  border-color: #D8D3BA;
+  background-color: #E5DFC5;
 }
 meta.titlebar {
   color: #5C6A72;
-  border-color: #E8E5D5;
-  background-color: #F2EFDF;
+  border-color: #D8D3BA;
+  background-color: #E5DFC5;
 }
 meta.titlebar.inactive {
   color: #A6B0A0;
 }
 
 meta.button {
-  background: linear-gradient(#FFFBEF, #F8F5E4);
-  border: linear-gradient(#EDEADA, #E8E5D5);
+  background: linear-gradient(#F3EAD3, #EAE4CA);
+  border: linear-gradient(#DDD8BE, #D8D3BA);
   color: #5C6A72;
 }
 meta.button.highlighted {
-  background: linear-gradient(#F8F5E4, #F2EFDF);
+  background: linear-gradient(#EAE4CA, #E5DFC5);
   color: #5C6A72;
 }
 meta.button.selected {
-  color: #FFFBEF;
+  color: #F3EAD3;
   background: #35A77C;
 }
 meta.button.highlighted.selected {
-  color: #F2EFDF;
+  color: #E5DFC5;
   background: #8DA101;
 }
 meta.button.disabled {
   color: #A6B0A0;
-  background: #EDEADA;
+  background: #DDD8BE;
 }
 
 meta.textfield {
-  background-color: #FFFBEF;
-  border-color: #EDEADA;
+  background-color: #F3EAD3;
+  border-color: #DDD8BE;
   color: #5C6A72;
 }
 meta.textfield.highlighted {
-  background-color: #F8F5E4;
-  border-color: #E8E5D5;
+  background-color: #EAE4CA;
+  border-color: #D8D3BA;
 }
 
 meta.accent {
@@ -68,31 +68,31 @@ meta.accent {
  * Document styles
  */
 meta.document {
-  background-color: #F2EFDF;
-  border-color: #E8E5D5;
+  background-color: #E5DFC5;
+  border-color: #D8D3BA;
 }
 
 meta.document.button {
-  background: linear-gradient(#F8F5E4, #FFFBEF);
-  border: linear-gradient(#F2EFDF, #F2EFDF);
+  background: linear-gradient(#EAE4CA, #F3EAD3);
+  border: linear-gradient(#E5DFC5, #E5DFC5);
   color: #5C6A72;
 }
 meta.document.button.disabled {
-  background: linear-gradient(#F8F5E480, #FFFBEF80);
+  background: linear-gradient(#EAE4CA80, #F3EAD380);
   color: #A6B0A0;
 }
 meta.document.button.highlighted {
-  background: linear-gradient(#EDEADA, #F8F5E4);
+  background: linear-gradient(#DDD8BE, #EAE4CA);
   color: #5C6A72;
 }
 
 meta.document.textfield {
-  background-color: #F2EFDF;
-  border-color: #EDEADA;
+  background-color: #E5DFC5;
+  border-color: #DDD8BE;
   color: #5C6A72;
 }
 meta.document.textfield.highlighted {
-  background-color: #F2EFDF;
+  background-color: #E5DFC5;
   border-color: #35A77C;
 }
 
@@ -104,27 +104,27 @@ meta.text.invisible {
   color: #5C6A7226;
 }
 meta.text.selected {
-  background-color: #E1DFCE;
+  background-color: #D0CBB7;
   color: #5C6A72;
 }
 
 /* Cursor */
 meta.cursor {
-  background-color: #EDEADA;
+  background-color: #DDD8BE;
 }
 
 /* Indentation Guides */
 meta.indentguide {
-  border-color: #E8E5D533;
+  border-color: #D8D3BA33;
 }
 
 /* Gutter */
 meta.gutter {
   color: #A6B0A0;
-  background-color: #FFFBEF;
+  background-color: #F3EAD3;
 }
 meta.gutter.selected {
-  background-color: #E1DFCE;
+  background-color: #D0CBB7;
   color: #5C6A72;
 }
 
@@ -325,7 +325,7 @@ markup.list.item {
   color: #F57D26;
 }
 markup.code {
-  background-color: #FFFBEF;
+  background-color: #F3EAD3;
   color: #35A77C;
 }
 markup.link {
@@ -450,7 +450,7 @@ terminal.cyan {
   color: #35A77C;
 }
 terminal.white {
-  color: #FFFBEF;
+  color: #F3EAD3;
 }
 
 /* Bright ANSI Colors */
@@ -476,5 +476,5 @@ terminal.brightCyan {
   color: #35A77C;
 }
 terminal.brightWhite {
-  color: #F2EFDF;
+  color: #E5DFC5;
 }

@@ -1,0 +1,480 @@
+meta {
+  -theme-interface-style: dark;
+  -theme-vibrancy: none;
+  -theme-accent-color: false;
+}
+
+/*
+ * Everforest Soft Dark Variant Color Palette
+ * Background: #293136 (dim), #333C43 (base), #3A464C (0), #434F55 (1), #4D5960 (2), #555F66 (3), #5D6B66 (4)
+ * Foreground: #D3C6AA
+ * Red: #E67E80, Orange: #E69875, Yellow: #DBBC7F, Green: #A7C080
+ * Blue: #7FBBB3, Aqua: #83C092, Purple: #D699B6
+ */
+
+/*
+ * Window styles
+ */
+meta.window {
+  border-color: #4D5960;
+  background-color: #293136;
+}
+meta.titlebar {
+  color: #D3C6AA;
+  border-color: #4D5960;
+  background-color: #293136;
+}
+meta.titlebar.inactive {
+  color: #7A8478;
+}
+
+meta.button {
+  background: linear-gradient(#434F55, #3A464C);
+  border: linear-gradient(#333C43, #293136);
+  color: #D3C6AA;
+}
+meta.button.highlighted {
+  background: linear-gradient(#4D5960, #434F55);
+  color: #D3C6AA;
+}
+meta.button.selected {
+  color: #D3C6AA;
+  background: #83C092;
+}
+meta.button.highlighted.selected {
+  color: #293136;
+  background: #A7C080;
+}
+meta.button.disabled {
+  color: #7A8478;
+  background: #3A464C;
+}
+
+meta.textfield {
+  background-color: #333C43;
+  border-color: #434F55;
+  color: #D3C6AA;
+}
+meta.textfield.highlighted {
+  background-color: #293136;
+  border-color: #4D5960;
+}
+
+meta.accent {
+  color: #83C092;
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+  background-color: #293136;
+  border-color: #4D5960;
+}
+
+meta.document.button {
+  background: linear-gradient(#3A464C, #333C43);
+  border: linear-gradient(#293136, #293136);
+  color: #D3C6AA;
+}
+meta.document.button.disabled {
+  background: linear-gradient(#3A464C80, #333C4380);
+  color: #7A8478;
+}
+meta.document.button.highlighted {
+  background: linear-gradient(#434F55, #3A464C);
+  color: #D3C6AA;
+}
+
+meta.document.textfield {
+  background-color: #293136;
+  border-color: #434F55;
+  color: #D3C6AA;
+}
+meta.document.textfield.highlighted {
+  background-color: #293136;
+  border-color: #83C092;
+}
+
+/* Text */
+meta.text {
+  color: #D3C6AA;
+}
+meta.text.invisible {
+  color: #D3C6AA26;
+}
+meta.text.selected {
+  background-color: #3E4A50;
+  color: #D3C6AA;
+}
+
+/* Cursor */
+meta.cursor {
+  background-color: #3A464C;
+}
+
+/* Indentation Guides */
+meta.indentguide {
+  border-color: #4D596033;
+}
+
+/* Gutter */
+meta.gutter {
+  color: #7A8478;
+  background-color: #333C43;
+}
+meta.gutter.selected {
+  background-color: #3E4A50;
+  color: #D3C6AA;
+}
+
+/*
+ * Syntax styles
+ */
+comment {
+  color: #859289;
+  font-style: italic;
+}
+processing {
+  color: #7A8478;
+}
+declaration {
+  color: #7A8478;
+}
+bracket {
+  color: #D3C6AA;
+}
+operator {
+  color: #E67E80;
+}
+invalid {
+  background-color: #E67E80;
+  color: #293136;
+}
+link {
+  color: #7FBBB3;
+}
+
+/* Keywords */
+keyword {
+  color: #E67E80;
+}
+keyword.modifier {
+  font-style: italic;
+  color: #7FBBB3;
+}
+keyword.condition {
+  color: #E67E80;
+}
+keyword.construct {
+  color: #E67E80;
+}
+keyword.statement {
+  color: #E67E80;
+}
+keyword.self {
+  color: #D699B6;
+}
+keyword.self.prefix {
+  color: #D699B6;
+}
+
+/* Values */
+value.boolean {
+  color: #E69875;
+}
+value.null {
+  color: #E69875;
+}
+value.number {
+  color: #DBBC7F;
+}
+value.entity {
+  color: #E69875;
+}
+value.symbol {
+  color: #E69875;
+}
+
+/* Identifiers */
+identifier.type {
+  color: #DBBC7F;
+}
+identifier.constant,
+identifier.global,
+identifier.variable {
+  color: #D699B6;
+}
+identifier.constant.prefix,
+identifier.global.prefix,
+identifier.variable.prefix {
+  color: #D3C6AA;
+}
+identifier.property {
+  color: #D699B6;
+}
+identifier.property.prefix {
+  color: #D3C6AA;
+}
+identifier.decorator,
+identifier.function,
+identifier.method {
+  color: #A7C080;
+}
+identifier.key {
+  color: #7FBBB3;
+}
+identifier.argument {
+  color: #D699B6;
+}
+identifier.argument.prefix {
+  color: #D3C6AA;
+}
+
+/* Storage & Language Constructs */
+storage.type {
+  color: #E67E80;
+  font-style: italic;
+}
+storage.modifier {
+  color: #7FBBB3;
+  font-style: italic;
+}
+
+/* Constants & Language Literals */
+constant.language {
+  color: #E69875;
+}
+constant.numeric {
+  color: #DBBC7F;
+}
+
+/* Variables & Parameters */
+variable.parameter {
+  color: #D699B6;
+}
+
+/* Entity Names */
+entity.name.function {
+  color: #A7C080;
+  font-weight: bold;
+}
+entity.name.class {
+  color: #DBBC7F;
+  font-weight: bold;
+}
+
+/* Support Classes & Functions */
+support.function {
+  color: #A7C080;
+}
+support.class {
+  color: #DBBC7F;
+}
+
+/* Strings */
+string {
+  color: #DBBC7F;
+}
+string.delimiter {
+  color: #E69875;
+}
+string.escape {
+  color: #83C092;
+}
+string.key {
+  color: #7FBBB3;
+}
+string-keyword {
+  color: #E69875;
+}
+string-template {
+  color: #83C092;
+}
+regex {
+  color: #83C092;
+}
+regex.escape {
+  color: #DBBC7F;
+}
+cdata {
+  color: #7FBBB3;
+}
+
+/* Markup */
+markup.heading {
+  color: #E69875;
+  font-weight: bold;
+}
+markup.line {
+  color: #DBBC7F;
+}
+markup.bold {
+  color: #7FBBB3;
+  font-weight: bold;
+}
+markup.italic {
+  color: #A7C080;
+  font-style: italic;
+}
+markup.strikethrough {
+  color: #7A8478;
+  text-decoration: line-through;
+}
+markup.list.item {
+  color: #E69875;
+}
+markup.code {
+  background-color: #333C43;
+  color: #83C092;
+}
+markup.link {
+  color: #7FBBB3;
+}
+
+/* Types */
+definition.class.name,
+definition.type.name,
+definition.package.name,
+definition.enum.name,
+definition.union.name,
+definition.struct.name {
+  color: #DBBC7F;
+  font-weight: bold;
+}
+
+/* Members */
+definition.property.name {
+  color: #D699B6;
+}
+definition.function.name,
+definition.method.name {
+  color: #A7C080;
+  font-weight: bold;
+}
+
+/* Tags */
+tag {
+  color: #A7C080;
+}
+tag.name {
+  color: #E67E80;
+}
+tag.framework {
+  color: #D699B6;
+}
+tag.framework.name {
+  color: #D699B6;
+}
+tag.attribute.name {
+  color: #DBBC7F;
+}
+tag.framework.attribute.name {
+  color: #83C092;
+}
+tag.attribute.value {
+  color: #DBBC7F;
+}
+tag.attribute.value.delimiter {
+  color: #E69875;
+}
+tag.attribute.operator {
+  color: #E67E80;
+}
+tag.attribute.value.link {
+  color: #7FBBB3;
+}
+
+/* Styles */
+style.at {
+  color: #E69875;
+  font-weight: bold;
+}
+style.selector.element {
+  color: #E67E80;
+  font-weight: bold;
+}
+style.selector.identifier.id {
+  color: #DBBC7F;
+}
+style.selector.identifier.class {
+  color: #A7C080;
+}
+style.selector.pseudoclass {
+  color: #D699B6;
+}
+style.selector.pseudoelement {
+  color: #E69875;
+}
+style.attribute.name {
+  color: #7FBBB3;
+}
+style.value.number {
+  color: #DBBC7F;
+}
+style.value.color.hex {
+  color: #DBBC7F;
+}
+style.value.keyword {
+  color: #E67E80;
+}
+style.value.color.named {
+  color: #E67E80;
+}
+style.value.identifier.function {
+  color: #A7C080;
+}
+
+/*
+ * Terminal Colors (ANSI)
+ */
+terminal.black {
+  color: #293136;
+}
+terminal.red {
+  color: #E67E80;
+}
+terminal.green {
+  color: #A7C080;
+}
+terminal.yellow {
+  color: #DBBC7F;
+}
+terminal.blue {
+  color: #7FBBB3;
+}
+terminal.magenta {
+  color: #D699B6;
+}
+terminal.cyan {
+  color: #83C092;
+}
+terminal.white {
+  color: #D3C6AA;
+}
+
+/* Bright ANSI Colors */
+terminal.brightBlack {
+  color: #7A8478;
+}
+terminal.brightRed {
+  color: #E67E80;
+}
+terminal.brightGreen {
+  color: #A7C080;
+}
+terminal.brightYellow {
+  color: #DBBC7F;
+}
+terminal.brightBlue {
+  color: #7FBBB3;
+}
+terminal.brightMagenta {
+  color: #D699B6;
+}
+terminal.brightCyan {
+  color: #83C092;
+}
+terminal.brightWhite {
+  color: #D3C6AA;
+}

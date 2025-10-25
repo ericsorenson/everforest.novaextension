@@ -5,8 +5,8 @@ meta {
 }
 
 /*
- * Everforest Hard Variant Color Palette
- * Background: #1E2326 (dim), #272E33 (0), #2E383C (1), #374145 (2), #414B50 (3), #495156 (4), #4F5B58 (5)
+ * Everforest Medium Dark Variant Color Palette
+ * Background: #232A2E (dim), #2D353B (base), #343F44 (0), #3D484D (1), #475258 (2), #4F585E (3), #56635F (4)
  * Foreground: #D3C6AA
  * Red: #E67E80, Orange: #E69875, Yellow: #DBBC7F, Green: #A7C080
  * Blue: #7FBBB3, Aqua: #83C092, Purple: #D699B6
@@ -16,25 +16,25 @@ meta {
  * Window styles
  */
 meta.window {
-  border-color: #414B50;
-  background-color: #1E2326;
+  border-color: #4C565C;
+  background-color: #2D353B;
 }
 meta.titlebar {
   color: #D3C6AA;
-  border-color: #414B50;
-  background-color: #1E2326;
+  border-color: #4C565C;
+  background-color: #2D353B;
 }
 meta.titlebar.inactive {
-  color: #7A8478;
+  color: #859289;
 }
 
 meta.button {
-  background: linear-gradient(#374145, #2E383C);
-  border: linear-gradient(#272E33, #1E2326);
+  background: linear-gradient(#445055, #3D484D);
+  border: linear-gradient(#343F44, #2D353B);
   color: #D3C6AA;
 }
 meta.button.highlighted {
-  background: linear-gradient(#414B50, #374145);
+  background: linear-gradient(#4C565C, #445055);
   color: #D3C6AA;
 }
 meta.button.selected {
@@ -42,22 +42,22 @@ meta.button.selected {
   background: #83C092;
 }
 meta.button.highlighted.selected {
-  color: #1E2326;
+  color: #2D353B;
   background: #A7C080;
 }
 meta.button.disabled {
   color: #7A8478;
-  background: #2E383C;
+  background: #3D484D;
 }
 
 meta.textfield {
-  background-color: #272E33;
-  border-color: #374145;
+  background-color: #343F44;
+  border-color: #445055;
   color: #D3C6AA;
 }
 meta.textfield.highlighted {
-  background-color: #1E2326;
-  border-color: #414B50;
+  background-color: #2D353B;
+  border-color: #4C565C;
 }
 
 meta.accent {
@@ -68,31 +68,31 @@ meta.accent {
  * Document styles
  */
 meta.document {
-  background-color: #1E2326;
-  border-color: #414B50;
+  background-color: #2D353B;
+  border-color: #4C565C;
 }
 
 meta.document.button {
-  background: linear-gradient(#2E383C, #272E33);
-  border: linear-gradient(#1E2326, #1E2326);
+  background: linear-gradient(#3D484D, #343F44);
+  border: linear-gradient(#2D353B, #2D353B);
   color: #D3C6AA;
 }
 meta.document.button.disabled {
-  background: linear-gradient(#2E383C80, #272E3380);
+  background: linear-gradient(#3D484D80, #343F4480);
   color: #7A8478;
 }
 meta.document.button.highlighted {
-  background: linear-gradient(#374145, #2E383C);
+  background: linear-gradient(#445055, #3D484D);
   color: #D3C6AA;
 }
 
 meta.document.textfield {
-  background-color: #1E2326;
-  border-color: #374145;
+  background-color: #2D353B;
+  border-color: #445055;
   color: #D3C6AA;
 }
 meta.document.textfield.highlighted {
-  background-color: #1E2326;
+  background-color: #2D353B;
   border-color: #83C092;
 }
 
@@ -104,27 +104,27 @@ meta.text.invisible {
   color: #D3C6AA26;
 }
 meta.text.selected {
-  background-color: #2E383C;
+  background-color: #404952;
   color: #D3C6AA;
 }
 
 /* Cursor */
 meta.cursor {
-  background-color: #2E383C;
+  background-color: #3D484D;
 }
 
 /* Indentation Guides */
 meta.indentguide {
-  border-color: #414B5033;
+  border-color: #4C565C33;
 }
 
 /* Gutter */
 meta.gutter {
   color: #7A8478;
-  background-color: #272E33;
+  background-color: #343F44;
 }
 meta.gutter.selected {
-  background-color: #2E383C;
+  background-color: #404952;
   color: #D3C6AA;
 }
 
@@ -325,7 +325,7 @@ markup.list.item {
   color: #E69875;
 }
 markup.code {
-  background-color: #272E33;
+  background-color: #343F44;
   color: #83C092;
 }
 markup.link {
@@ -429,7 +429,7 @@ style.value.identifier.function {
  * Terminal Colors (ANSI)
  */
 terminal.black {
-  color: #1E2326;
+  color: #2D353B;
 }
 terminal.red {
   color: #E67E80;
@@ -478,3 +478,4 @@ terminal.brightCyan {
 terminal.brightWhite {
   color: #D3C6AA;
 }
+

@@ -11,19 +11,34 @@
   "bugs": "https://github.com/esorenson/everforest.novaextension/issues",
   "themes": [
     {
-      "name": "Everforest Hard",
-      "identifier": "everforest-hard",
-      "path": "Themes/Everforest Hard.css"
+      "name": "Everforest Hard Dark",
+      "identifier": "everforest-hard-dark",
+      "path": "Themes/Everforest Hard Dark.css"
     },
     {
-      "name": "Everforest Medium",
-      "identifier": "everforest-medium",
-      "path": "Themes/Everforest Medium.css"
+      "name": "Everforest Medium Dark",
+      "identifier": "everforest-medium-dark",
+      "path": "Themes/Everforest Medium Dark.css"
     },
     {
-      "name": "Everforest Soft",
-      "identifier": "everforest-soft",
-      "path": "Themes/Everforest Soft.css"
+      "name": "Everforest Soft Dark",
+      "identifier": "everforest-soft-dark",
+      "path": "Themes/Everforest Soft Dark.css"
+    },
+    {
+      "name": "Everforest Hard Light",
+      "identifier": "everforest-hard-light",
+      "path": "Themes/Everforest Hard Light.css"
+    },
+    {
+      "name": "Everforest Medium Light",
+      "identifier": "everforest-medium-light",
+      "path": "Themes/Everforest Medium Light.css"
+    },
+    {
+      "name": "Everforest Soft Light",
+      "identifier": "everforest-soft-light",
+      "path": "Themes/Everforest Soft Light.css"
     }
   ]
 }
