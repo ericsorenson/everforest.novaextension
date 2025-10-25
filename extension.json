@@ -5,6 +5,10 @@
   "description": "A green based color scheme designed to be warm and soft in order to protect developers' eyes",
   "version": "1.0.0",
   "categories": ["themes"],
+  "license": "MIT",
+  "homepage": "https://github.com/esorenson/everforest.novaextension",
+  "repository": "https://github.com/esorenson/everforest.novaextension",
+  "bugs": "https://github.com/esorenson/everforest.novaextension/issues",
   "themes": [
     {
       "name": "Everforest Hard",

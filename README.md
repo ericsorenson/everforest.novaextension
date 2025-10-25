@@ -74,11 +74,3 @@ Found an issue or want to suggest an improvement? Please open an issue or submit
 ## Acknowledgements
 
 Everforest is based on the original [Everforest](https://github.com/sainnhe/everforest) color scheme created by [Sainnhe Park](https://github.com/sainnhe). This Nova extension faithfully implements the official Everforest design specification.
-
-- **Original Theme**: [Everforest by Sainnhe Park](https://github.com/sainnhe/everforest)
-- **Theme Website**: [everforest.vercel.app](https://everforest.vercel.app/)
-- **Nova Extension**: Adapted for Nova editor
-
-## License
-
-This Nova extension is distributed under the same license as the original Everforest theme. Please refer to the original project for licensing details.
