@@ -6,9 +6,9 @@
   "version": "1.0.0",
   "categories": ["themes"],
   "license": "MIT",
-  "homepage": "https://github.com/esorenson/everforest.novaextension",
-  "repository": "https://github.com/esorenson/everforest.novaextension",
-  "bugs": "https://github.com/esorenson/everforest.novaextension/issues",
+  "homepage": "https://github.com/ericsorenson/everforest.novaextension",
+  "repository": "https://github.com/ericsorenson/everforest.novaextension",
+  "bugs": "https://github.com/ericsorenson/everforest.novaextension/issues",
   "themes": [
     {
       "name": "Everforest Hard Dark",
