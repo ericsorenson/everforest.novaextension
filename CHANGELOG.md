@@ -1,3 +1,7 @@
+## Version 1.0.4
+
+- Updated extension icon (extension.png)
+
 ## Version 1.0.3
 
 - Updated extension icon (extension.png)
