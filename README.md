@@ -1,7 +1,5 @@
 # Everforest for Nova
 
-> A green based color scheme designed to be warm and soft in order to protect developers' eyes.
-
 **Everforest** brings the popular warm, forest-inspired color scheme to Nova. Originally created for Vim, this theme provides a comfortable coding experience with carefully crafted colors that reduce eye strain during long coding sessions.
 
 ## Theme Variants
